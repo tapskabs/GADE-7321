@@ -43,14 +43,13 @@ public class checkPointRace : MonoBehaviour
 
     void Start()
     {
-        // Find all checkpoints and add them in the correct order
+        
         GameObject[] checkpoints = GameObject.FindGameObjectsWithTag("Checkpoint");
-        Array.Reverse(checkpoints); // Ensure the first checkpoint is at the top of the stack
-
+        Array.Reverse(checkpoints); 
         foreach (GameObject checkpoint in checkpoints)
         {
             checkpointStack.Push(checkpoint);
-            SetCheckpointColor(checkpoint, Color.red); // Set all checkpoints to red initially
+            SetCheckpointColor(checkpoint, Color.red); 
         }
     }
 
@@ -59,7 +58,7 @@ public class checkPointRace : MonoBehaviour
         if (!raceOver)
         {
             timeLeft -= Time.deltaTime;
-            timerText.text = "Time: " + Mathf.Ceil(timeLeft); // Display time rounded up
+            timerText.text = "Time: " + Mathf.Ceil(timeLeft); 
 
             if (timeLeft <= 0)
             {
@@ -70,20 +69,20 @@ public class checkPointRace : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Ensure only the player triggers checkpoints
+        
         if (other.CompareTag("Checkpoint") && !checkpointStack.IsEmpty())
         {
-            GameObject currentCheckpoint = checkpointStack.Peek(); // Get the next target checkpoint
+            GameObject currentCheckpoint = checkpointStack.Peek(); 
 
             if (currentCheckpoint == other.gameObject)
             {
-                checkpointStack.Pop(); // Remove it from the stack
-                SetCheckpointColor(other.gameObject, Color.green); // Turn checkpoint green
-                timeLeft += timeBonus; // Add 5 seconds to timer
+                checkpointStack.Pop(); 
+                SetCheckpointColor(other.gameObject, Color.green); 
+                timeLeft += timeBonus; 
 
                 if (checkpointStack.IsEmpty())
                 {
-                    EndRace(true); // End race if all checkpoints are reached
+                    EndRace(true); 
                 }
             }
         }
