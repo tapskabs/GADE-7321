@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // Import TextMeshPro namespace
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TMP_Text nameText;  // Use TMP_Text instead of Text
+    public GameObject dialogueUI;  // Parent object for all dialogue UI elements
+    public TMP_Text nameText;
     public Image portraitImage;
-    public TMP_Text dialogueText;  // Use TMP_Text instead of Text
+    public TMP_Text dialogueText;
     public Button nextButton;
 
-    public DialogueLine[] dialogueLines; // Assign in Inspector
+    public DialogueLine[] dialogueLines;
     private DialogueQueue<DialogueLine> dialogueQueue = new DialogueQueue<DialogueLine>();
 
     void Start()
@@ -37,7 +38,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             Debug.Log("Dialogue Finished!");
-            nextButton.gameObject.SetActive(false);
+            dialogueUI.SetActive(false); // Hide all dialogue UI
         }
     }
 }
