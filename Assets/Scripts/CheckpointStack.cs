@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckpointStack<T> : MonoBehaviour
+public class CheckpointStack<T> 
 {
     private LinkedList<T> stackList = new LinkedList<T>();
 

@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class CheckpointManager : MonoBehaviour
 {
-    public GameObject player;  // The tiger racer
+    public GameObject player;
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI checkpointStatusText;
-    public float raceTime = 60f;  // Initial countdown timer
+    public float raceTime = 60f;
     private CheckpointStack<GameObject> checkpointStack = new CheckpointStack<GameObject>();
 
     private float timer;
@@ -20,13 +20,14 @@ public class CheckpointManager : MonoBehaviour
         timer = raceTime;
         GameObject[] checkpoints = GameObject.FindGameObjectsWithTag("Checkpoint");
 
-        // Push all checkpoints onto the stack (reverse order if needed)
-        foreach (GameObject checkpoint in checkpoints)
+       
+        for (int i = checkpoints.Length - 1; i >= 0; i--)  
         {
-            checkpointStack.Push(checkpoint);
-            checkpoint.GetComponent<Renderer>().material.color = Color.red; // Unvisited
+            checkpointStack.Push(checkpoints[i]);
+            checkpoints[i].GetComponent<Renderer>().material.color = Color.red; 
         }
 
+        UpdateTargetCheckpoint(); 
         UpdateUI();
         StartCoroutine(CountdownTimer());
     }
@@ -56,18 +57,28 @@ public class CheckpointManager : MonoBehaviour
     {
         if (checkpointStack.IsEmpty() || checkpoint != checkpointStack.Peek())
         {
-            return;  // Ignore if it's not the next target checkpoint
+            return;  
         }
 
         checkpointStack.Pop();
-        checkpoint.GetComponent<Renderer>().material.color = Color.green;  // Mark as visited
-        Destroy(checkpoint, 0.5f); // Remove checkpoint after 0.5s
-        timer += 5; // Add 5 seconds
+        checkpoint.GetComponent<Renderer>().material.color = Color.green;
+        Destroy(checkpoint, 0.5f);
+        timer += 5;
+        UpdateTargetCheckpoint(); 
         UpdateUI();
 
         if (checkpointStack.IsEmpty())
         {
             GameOver(true);
+        }
+    }
+
+    void UpdateTargetCheckpoint()
+    {
+        if (!checkpointStack.IsEmpty())
+        {
+            GameObject nextCheckpoint = checkpointStack.Peek();
+            nextCheckpoint.GetComponent<Renderer>().material.color = Color.magenta; 
         }
     }
 

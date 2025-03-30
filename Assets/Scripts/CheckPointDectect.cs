@@ -6,9 +6,9 @@ public class CheckPointDectect : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))  // Ensure it's the player
+        if (other.CompareTag("Player"))  
         {
-            FindObjectOfType<CheckpointManager>().CheckpointReached(gameObject);
+            Object.FindFirstObjectByType<CheckpointManager>().CheckpointReached(gameObject);
         }
     }
 }
