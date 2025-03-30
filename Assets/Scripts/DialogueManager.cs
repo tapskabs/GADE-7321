@@ -4,26 +4,33 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dialogueUI;  // Parent object for all dialogue UI elements
+    public GameObject dialogueUI;  // Parent object for dialogue UI
     public TMP_Text nameText;
     public Image portraitImage;
     public TMP_Text dialogueText;
     public Button nextButton;
 
-    public DialogueLine[] dialogueLines;
+    public DialogueScriptableObject dialogueData; // Now using a Scriptable Object
     private DialogueQueue<DialogueLine> dialogueQueue = new DialogueQueue<DialogueLine>();
 
     void Start()
     {
         nextButton.onClick.AddListener(DisplayNextDialogue);
 
-        // Load dialogues into the queue
-        foreach (DialogueLine line in dialogueLines)
+        // Load dialogues from the Scriptable Object
+        if (dialogueData != null && dialogueData.dialogueLines.Length > 0)
         {
-            dialogueQueue.Enqueue(line);
+            foreach (DialogueLine line in dialogueData.dialogueLines)
+            {
+                dialogueQueue.Enqueue(line);
+            }
+            DisplayNextDialogue();
         }
-
-        DisplayNextDialogue();
+        else
+        {
+            Debug.LogError("No dialogue data assigned!");
+            dialogueUI.SetActive(false);
+        }
     }
 
     public void DisplayNextDialogue()
@@ -38,7 +45,8 @@ public class DialogueManager : MonoBehaviour
         else
         {
             Debug.Log("Dialogue Finished!");
-            dialogueUI.SetActive(false); // Hide all dialogue UI
+            dialogueUI.SetActive(false); // Hide dialogue UI when done
         }
     }
 }
+
