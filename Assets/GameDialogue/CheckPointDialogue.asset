@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c14997414d043f4d8ff0855fac2efa9, type: 3}
+  m_Name: CheckPointDialogue
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Wizard
+    speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
+    dialogueText: ' Welcome, Tiger! This race is all about speed and precision. Reach
+      all checkpoints before time runs out!  '
+  - speakerName: Tiger
+    speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
+    dialogueText: Got it! I was born ready.
+  - speakerName: Guy
+    speakerPortrait: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
+    dialogueText: "Hey, don\u2019t forget! Shortcuts aren't allowed and will cost
+      you time instead of saving it."
+  - speakerName: Tiger
+    speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
+    dialogueText: "I\u2019ll keep that in mind. Let\u2019s do this!"

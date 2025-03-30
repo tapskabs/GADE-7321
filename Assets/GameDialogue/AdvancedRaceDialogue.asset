@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c14997414d043f4d8ff0855fac2efa9, type: 3}
+  m_Name: AdvancedRaceDialogue
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Wizard
+    speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
+    dialogueText: This is no ordinary race. Only the fastest and the smartest will
+      succeed!
+  - speakerName: Tiger
+    speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
+    dialogueText: "I\u2019ve come this far. I won\u2019t back down now."
+  - speakerName: Guy
+    speakerPortrait: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
+    dialogueText: "Uh\u2026 you sure? I heard no one finishes this race without a
+      few bruises."
+  - speakerName: Tiger
+    speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
+    dialogueText: Good. I like a challenge!
+  - speakerName: Wizard
+    speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
+    dialogueText: Then may the fastest racer win!
