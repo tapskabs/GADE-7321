@@ -7,4 +7,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void LoadCheckPointRace()
+    {
+        SceneManager.LoadScene("CheckpointRace");
+    }
+   
 }
