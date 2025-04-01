@@ -13,17 +13,24 @@ MonoBehaviour:
   m_Name: CheckPointDialogue
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Wizard
+  - speakerName: Magnus
+    species: Wizard
     speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
-    dialogueText: ' Welcome, Tiger! This race is all about speed and precision. Reach
-      all checkpoints before time runs out!  '
-  - speakerName: Tiger
+    dialogueText: Racers! This challenge is not about speed alone. You must hit every
+      checkpoint in the right order. Miss one, and you're out!
+  - speakerName: Blaze
+    species: Tiger
     speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
-    dialogueText: Got it! I was born ready.
-  - speakerName: Guy
-    speakerPortrait: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
-    dialogueText: "Hey, don\u2019t forget! Shortcuts aren't allowed and will cost
-      you time instead of saving it."
-  - speakerName: Tiger
-    speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
-    dialogueText: "I\u2019ll keep that in mind. Let\u2019s do this!"
+    dialogueText: "Sounds simple enough. Let\u2019s go!"
+  - speakerName: Stripes
+    species: Zebra
+    speakerPortrait: {fileID: 21300000, guid: 1180947fa0b72e1458ece8f0b8eb2faf, type: 3}
+    dialogueText: Hah! Simple for me. You might struggle, Blaze and Fang.
+  - speakerName: Fang
+    species: Wolf
+    speakerPortrait: {fileID: 21300000, guid: 79af4d1ad1f141d4aa670d2130ec8db4, type: 3}
+    dialogueText: We'll see who struggles when the race begins.
+  - speakerName: Magnus
+    species: Wizard
+    speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
+    dialogueText: Enough talk. The race will COMMENCE!

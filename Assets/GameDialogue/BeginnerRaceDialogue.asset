@@ -13,19 +13,24 @@ MonoBehaviour:
   m_Name: BeginnerRaceDialogue
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Wizard
+  - speakerName: Magnus
+    species: Wizard
     speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
-    dialogueText: "Tiger, this is your first real race. No magic, no tricks\u2014just
-      skill. Reach the finish line first!"
-  - speakerName: Tiger
+    dialogueText: "Racers, your goal is clear: first to the finish line wins. No
+      magic, no shortcuts\u2014just skill."
+  - speakerName: Blaze
+    species: Tiger
     speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
-    dialogueText: "No problem. I\u2019ll show you what I\u2019ve got!"
-  - speakerName: Guy
-    speakerPortrait: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
-    dialogueText: Oooh, I love an underdog story! Can Tiger take the win?
-  - speakerName: Tiger
-    speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
-    dialogueText: "Hey! I\u2019m not an underdog\u2014I\u2019m the future champion!"
-  - speakerName: Wizard
+    dialogueText: "I\u2019ve trained for this. Let\u2019s do it!"
+  - speakerName: Stripes
+    species: Zebra
+    speakerPortrait: {fileID: 21300000, guid: 1180947fa0b72e1458ece8f0b8eb2faf, type: 3}
+    dialogueText: "I was born fast. This won\u2019t even be fair."
+  - speakerName: Fang
+    species: Wolf
+    speakerPortrait: {fileID: 21300000, guid: 79af4d1ad1f141d4aa670d2130ec8db4, type: 3}
+    dialogueText: "Speed isn\u2019t everything. A smart racer wins the race."
+  - speakerName: Maguns
+    species: Wizard
     speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
-    dialogueText: Then prove it. The race starts... NOW!
+    dialogueText: Then prove it racers. The race starts... NOW!

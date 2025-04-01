@@ -4,6 +4,7 @@ using UnityEngine;
 public class DialogueLine
 {
     public string speakerName;
+    public string species;  
     public Sprite speakerPortrait;
-    [TextArea(2, 5)] public string dialogueText;
+    public string dialogueText;
 }
