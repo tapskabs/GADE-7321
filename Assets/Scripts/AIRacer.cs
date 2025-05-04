@@ -17,7 +17,7 @@ public class AIRacer : MonoBehaviour
 
         GameObject[] waypoints = GameObject.FindGameObjectsWithTag("Waypoint");
 
-        // Sort waypoints alphabetically by name to keep order
+        // Sort waypoints to maintain order
         System.Array.Sort(waypoints, (a, b) => a.name.CompareTo(b.name));
         foreach (GameObject wp in waypoints)
         {
@@ -28,12 +28,26 @@ public class AIRacer : MonoBehaviour
         agent.SetDestination(currentNode.waypoint.position);
     }
 
+    void Update()
+    {
+        // Just in case trigger misses, add a backup check by distance
+        if (Vector3.Distance(transform.position, currentNode.waypoint.position) < 1.0f)
+        {
+            GoToNextWaypoint();
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Waypoint") && other.transform == currentNode.waypoint)
         {
-            currentNode = currentNode.next;
-            agent.SetDestination(currentNode.waypoint.position);
+            GoToNextWaypoint();
         }
+    }
+
+    private void GoToNextWaypoint()
+    {
+        currentNode = currentNode.next;
+        agent.SetDestination(currentNode.waypoint.position);
     }
 }
