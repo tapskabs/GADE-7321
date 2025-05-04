@@ -6,18 +6,21 @@ using UnityEngine.AI;
 
 public class AIRacer : MonoBehaviour
 {
+
     private NavMeshAgent agent;
     private CustomLinkedList waypointsList;
     private Node currentNode;
 
+    public float speed = 3.5f; // will be set by factory at spawn
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.speed = speed;
+
         waypointsList = new CustomLinkedList();
 
         GameObject[] waypoints = GameObject.FindGameObjectsWithTag("Waypoint");
-
-        // Sort waypoints to maintain order
         System.Array.Sort(waypoints, (a, b) => a.name.CompareTo(b.name));
         foreach (GameObject wp in waypoints)
         {
@@ -30,7 +33,6 @@ public class AIRacer : MonoBehaviour
 
     void Update()
     {
-        // Just in case trigger misses, add a backup check by distance
         if (Vector3.Distance(transform.position, currentNode.waypoint.position) < 1.0f)
         {
             GoToNextWaypoint();
