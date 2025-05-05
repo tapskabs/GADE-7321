@@ -1,55 +1,44 @@
-using System.Collections.Generic;
-using UnityEngine;
+using System.Linq;
 using TMPro;
+using UnityEngine;
 
 public class RaceManager : MonoBehaviour
 {
-    public TextMeshProUGUI positionText; // Assign in Inspector
-    private List<GameObject> allRacers;
-    private GameObject player;
+    public RacerProgress[] racers;
+    public RacerProgress player;
+    public TextMeshProUGUI positionText;
 
     void Start()
     {
-        allRacers = new List<GameObject>();
-
-        // Get AI Racers
-        GameObject[] aiRacers = GameObject.FindGameObjectsWithTag("Racer");
-        allRacers.AddRange(aiRacers);
-
-        // Get Player
-        player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            allRacers.Add(player);
-        }
+        racers = FindObjectsOfType<RacerProgress>();
     }
 
     void Update()
     {
-        allRacers.Sort(CompareRacers);
-        int playerPosition = allRacers.IndexOf(player) + 1;
-        positionText.text = playerPosition + GetPositionSuffix(playerPosition);
+        foreach (var racer in racers)
+        {
+            racer.UpdateDistance();
+        }
+
+        var ranked = racers.OrderByDescending(r => r.checkpointsPassed)
+                           .ThenBy(r => r.distanceToNext)
+                           .ToList();
+
+        int position = ranked.IndexOf(player) + 1;
+        positionText.text = GetOrdinal(position) + " Place";
     }
 
-    // Compare based on waypoints passed, then distance to next waypoint
-    private int CompareRacers(GameObject a, GameObject b)
+    private string GetOrdinal(int number)
     {
-        RacerProgress progressA = a.GetComponent<RacerProgress>();
-        RacerProgress progressB = b.GetComponent<RacerProgress>();
+        if (number <= 0) return number.ToString();
+        if (number % 100 >= 11 && number % 100 <= 13) return number + "th";
 
-        if (progressA.waypointsPassed != progressB.waypointsPassed)
-            return progressB.waypointsPassed.CompareTo(progressA.waypointsPassed); // Higher is better
-
-        float distA = Vector3.Distance(a.transform.position, progressA.nextWaypoint.position);
-        float distB = Vector3.Distance(b.transform.position, progressB.nextWaypoint.position);
-        return distA.CompareTo(distB); // Closer is better
-    }
-
-    private string GetPositionSuffix(int pos)
-    {
-        if (pos % 10 == 1 && pos != 11) return "st";
-        if (pos % 10 == 2 && pos != 12) return "nd";
-        if (pos % 10 == 3 && pos != 13) return "rd";
-        return "th";
+        switch (number % 10)
+        {
+            case 1: return number + "st";
+            case 2: return number + "nd";
+            case 3: return number + "rd";
+            default: return number + "th";
+        }
     }
 }

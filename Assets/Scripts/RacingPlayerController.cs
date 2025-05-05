@@ -9,7 +9,7 @@ public class RacingPlayerController : MonoBehaviour
     public float turnSpeed = 100f;
     public float drag = 5f;
     public float brakeForce = 10f;
-
+    private RacerProgress progress;
     private Rigidbody rb;
     private float currentSpeed = 0f;
     private float turnInput;
@@ -18,6 +18,7 @@ public class RacingPlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.drag = drag; // Helps with gradual stopping
+        progress = GetComponent<RacerProgress>();
     }
 
     void Update()
@@ -38,7 +39,10 @@ public class RacingPlayerController : MonoBehaviour
         {
             currentSpeed -= acceleration * 0.5f * Time.deltaTime;
         }
-
+        if (progress != null)
+        {
+            progress.UpdateDistance();
+        }
         currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
     }
 
