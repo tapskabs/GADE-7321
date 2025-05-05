@@ -132,6 +132,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (42)
@@ -197,6 +201,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7499966408349325154, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
   m_PrefabInstance: {fileID: 3294573}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &21917060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 21917062}
+  - component: {fileID: 21917061}
+  m_Layer: 0
+  m_Name: Waypoint2 (19)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &21917061
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21917060}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &21917062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21917060}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.47, y: -7.57, z: 21.1}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &31221972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -205,6 +262,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (119)
@@ -304,6 +365,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (21)
@@ -377,6 +442,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (61)
@@ -450,6 +519,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (102)
@@ -541,6 +614,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4, y: 1.2, z: 1.5000001}
   m_Center: {x: -3.996803e-16, y: 0.59999907, z: 4.662937e-16}
+--- !u!1 &44861583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44861585}
+  - component: {fileID: 44861584}
+  m_Layer: 0
+  m_Name: Waypoint2 (13)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &44861584
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44861583}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &44861585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44861583}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.41, y: -7.57, z: -53.3}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &52107663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
@@ -559,6 +685,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (52)
@@ -632,6 +762,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (56)
@@ -822,6 +956,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (110)
@@ -1006,6 +1144,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (32)
@@ -1079,6 +1221,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (14)
@@ -1170,6 +1316,60 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40000063, y: 1.2, z: 15}
   m_Center: {x: 0.000015258789, y: 0.6, z: 0}
+--- !u!1 &101917643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101917644}
+  - component: {fileID: 101917645}
+  m_Layer: 0
+  m_Name: PlayerCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &101917644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101917643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.47, y: -7.45, z: 15.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 343260527}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &101917645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101917643}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9035072, y: 1.2770796, z: 0.7795963}
+  m_Center: {x: 0.19086146, y: 0.056675434, z: 0.110201836}
 --- !u!1001 &102724831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1178,6 +1378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (40)
@@ -1256,6 +1460,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (2)
@@ -1329,6 +1537,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (26)
@@ -1402,6 +1614,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (101)
@@ -1501,6 +1717,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (66)
@@ -1574,6 +1794,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (6)
@@ -1647,6 +1871,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (102)
@@ -1746,6 +1974,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (26)
@@ -1829,6 +2061,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (95)
@@ -1928,6 +2164,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (60)
@@ -2001,6 +2241,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (35)
@@ -2074,6 +2318,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (38)
@@ -2147,6 +2395,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (07)
@@ -2289,6 +2541,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs
@@ -2477,6 +2733,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (10)
@@ -2624,6 +2884,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (76)
@@ -2697,6 +2961,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (117)
@@ -2796,6 +3064,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (39)
@@ -2869,6 +3141,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (08)
@@ -2952,6 +3228,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (19)
@@ -3030,6 +3310,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (10)
@@ -3129,6 +3413,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (75)
@@ -3202,6 +3490,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (7)
@@ -3275,6 +3567,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (108)
@@ -3374,6 +3670,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (57)
@@ -3452,6 +3752,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (12)
@@ -3525,6 +3829,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (93)
@@ -3624,6 +3932,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (64)
@@ -3702,6 +4014,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (3)
@@ -3806,6 +4122,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (95)
@@ -3984,6 +4304,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (118)
@@ -4109,6 +4433,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (73)
@@ -4182,6 +4510,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (11)
@@ -4260,6 +4592,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (46)
@@ -4338,6 +4674,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (1)
@@ -4411,6 +4751,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (39)
@@ -4627,6 +4971,59 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
   m_PrefabInstance: {fileID: 656294974}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &299997206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 299997208}
+  - component: {fileID: 299997207}
+  m_Layer: 0
+  m_Name: Waypoint2 (9)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &299997207
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299997206}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &299997208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299997206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -88.82, y: -7.57, z: -9.02}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &303282484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
@@ -4640,6 +5037,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (8)
@@ -4713,6 +5114,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (13)
@@ -4855,6 +5260,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (113)
@@ -4959,6 +5368,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (60)
@@ -5084,6 +5497,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (09)
@@ -5188,6 +5605,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (59)
@@ -5371,7 +5792,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 0
@@ -5404,6 +5825,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (94)
@@ -5503,6 +5928,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (11)
@@ -5597,6 +6026,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (64)
@@ -5691,6 +6124,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (87)
@@ -5769,6 +6206,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (80)
@@ -5880,6 +6321,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (05)
@@ -5974,6 +6419,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (40)
@@ -6049,6 +6498,59 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
   m_PrefabInstance: {fileID: 509521102}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &381199070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381199072}
+  - component: {fileID: 381199071}
+  m_Layer: 0
+  m_Name: Waypoint2 (20)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &381199071
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381199070}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &381199072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381199070}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.3, y: -7.57, z: 21.4}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &392820296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7599908097705747875, guid: ac0f6076afd4dde4f82fd5097f69adc9, type: 3}
@@ -6067,6 +6569,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (112)
@@ -6166,6 +6672,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (97)
@@ -6265,6 +6775,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs
@@ -6363,6 +6877,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (108)
@@ -6620,6 +7138,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (14)
@@ -6902,6 +7424,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (6)
@@ -7112,6 +7638,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (99)
@@ -7280,6 +7810,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (82)
@@ -7345,6 +7879,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7499966408349325154, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
   m_PrefabInstance: {fileID: 478444732}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &479665120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479665122}
+  - component: {fileID: 479665121}
+  m_Layer: 0
+  m_Name: Waypoint2 (8)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &479665121
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479665120}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &479665122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479665120}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -105.51, y: -7.57, z: -3.21}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &479669320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7353,6 +7940,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (69)
@@ -7431,6 +8022,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (109)
@@ -7535,6 +8130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (29)
@@ -7608,6 +8207,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (85)
@@ -7712,6 +8315,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (17)
@@ -7785,6 +8392,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (5)
@@ -7858,6 +8469,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (41)
@@ -8004,6 +8619,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (114)
@@ -8103,6 +8722,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (25)
@@ -8197,6 +8820,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (116)
@@ -8288,6 +8915,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40000004, y: 1.2, z: 1.5000002}
   m_Center: {x: 0.0000076293945, y: 0.6, z: -1.6653346e-15}
+--- !u!1 &535002313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535002315}
+  - component: {fileID: 535002314}
+  m_Layer: 0
+  m_Name: Waypoint2 (18)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &535002314
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535002313}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &535002315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535002313}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.4, y: -7.57, z: 16}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &535693442 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
@@ -8322,6 +9002,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (97)
@@ -8421,6 +9105,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (69)
@@ -8515,6 +9203,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (79)
@@ -8588,6 +9280,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (68)
@@ -8682,6 +9378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (107)
@@ -8781,6 +9481,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (116)
@@ -8880,6 +9584,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (25)
@@ -8953,6 +9661,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (18)
@@ -9057,6 +9769,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (24)
@@ -9261,6 +9977,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (58)
@@ -9334,6 +10054,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (106)
@@ -9433,6 +10157,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (62)
@@ -9553,6 +10281,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (27)
@@ -9652,6 +10384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (44)
@@ -9808,6 +10544,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (67)
@@ -9886,6 +10626,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (10)
@@ -9959,6 +10703,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (115)
@@ -10058,6 +10806,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (2)
@@ -10157,6 +10909,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (83)
@@ -10235,6 +10991,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (30)
@@ -10444,6 +11204,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (5)
@@ -10535,6 +11299,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40000072, y: 1.2, z: 15.000004}
   m_Center: {x: -0.0000009536743, y: 0.6, z: 0.00000047683716}
+--- !u!1 &700271836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 700271838}
+  - component: {fileID: 700271837}
+  m_Layer: 0
+  m_Name: Waypoint2 (1)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &700271837
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700271836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &700271838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700271836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -80.2, y: -7.57, z: 35}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &702353157
 GameObject:
   m_ObjectHideFlags: 0
@@ -10689,6 +11506,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (118)
@@ -10788,6 +11609,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (52)
@@ -10861,6 +11686,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (2)
@@ -10978,6 +11807,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (62)
@@ -11072,6 +11905,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (3)
@@ -11145,6 +11982,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (115)
@@ -11244,6 +12085,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (27)
@@ -11317,6 +12162,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (81)
@@ -11541,6 +12390,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (21)
@@ -11889,6 +12742,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (68)
@@ -11983,6 +12840,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (20)
@@ -12125,6 +12986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (56)
@@ -12203,6 +13068,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (47)
@@ -12276,6 +13145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (4)
@@ -12354,6 +13227,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (109)
@@ -12453,6 +13330,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (91)
@@ -12552,6 +13433,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (78)
@@ -12651,6 +13536,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (71)
@@ -12729,6 +13618,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (44)
@@ -12823,6 +13716,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (24)
@@ -12901,6 +13798,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (71)
@@ -12966,6 +13867,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8935095989379886729, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
   m_PrefabInstance: {fileID: 816844548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &817436770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817436772}
+  - component: {fileID: 817436771}
+  m_Layer: 0
+  m_Name: Waypoint2 (16)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &817436771
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817436770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &817436772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817436770}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.5, y: -7.57, z: -18.7}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &819267952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12974,6 +13928,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (73)
@@ -13194,6 +14152,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (50)
@@ -13267,6 +14229,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (23)
@@ -13407,6 +14373,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (94)
@@ -13553,6 +14523,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (47)
@@ -13918,6 +14892,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (29)
@@ -14043,6 +15021,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (91)
@@ -14142,6 +15124,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (104)
@@ -14419,6 +15405,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (98)
@@ -14549,6 +15539,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (4)
@@ -14627,6 +15621,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (80)
@@ -14844,6 +15842,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (107)
@@ -14943,6 +15945,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (74)
@@ -15016,6 +16022,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (105)
@@ -15115,6 +16125,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (72)
@@ -15245,6 +16259,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (78)
@@ -15568,6 +16586,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (70)
@@ -15719,6 +16741,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (22)
@@ -15797,6 +16823,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (23)
@@ -15986,6 +17016,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (86)
@@ -16218,6 +17252,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (7)
@@ -16312,6 +17350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (81)
@@ -16521,6 +17563,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (1)
@@ -16615,6 +17661,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (32)
@@ -16680,6 +17730,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7499966408349325154, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
   m_PrefabInstance: {fileID: 1098724236}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1098739669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1098739671}
+  - component: {fileID: 1098739670}
+  m_Layer: 0
+  m_Name: Waypoint2 (4)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1098739670
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098739669}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1098739671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098739669}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -93.4, y: -7.57, z: 73.62}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1098850578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16816,6 +17919,59 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: a679faa23016ffe4d9d6d796385b8a47, type: 3}
   m_PrefabInstance: {fileID: 2045436001}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1114206652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114206654}
+  - component: {fileID: 1114206653}
+  m_Layer: 0
+  m_Name: Waypoint2 (15)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1114206653
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114206652}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1114206654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114206652}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.75, y: -7.57, z: -33.55}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1117526342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16824,6 +17980,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs
@@ -16897,6 +18057,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (117)
@@ -17060,6 +18224,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (113)
@@ -17238,6 +18406,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (58)
@@ -17616,6 +18788,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (100)
@@ -17840,6 +19016,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (66)
@@ -17913,6 +19093,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (96)
@@ -18017,6 +19201,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (54)
@@ -18134,6 +19322,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4000001, y: 1.2, z: 1.5000005}
   m_Center: {x: 0, y: 0.6, z: 0}
+--- !u!1 &1189632012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1189632014}
+  - component: {fileID: 1189632013}
+  m_Layer: 0
+  m_Name: Waypoint2 (14)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1189632013
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189632012}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1189632014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189632012}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.69, y: -7.57, z: -52.65}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1192259684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18142,6 +19383,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (31)
@@ -18241,6 +19486,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (87)
@@ -18366,6 +19615,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (20)
@@ -18439,6 +19692,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (35)
@@ -18512,6 +19769,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (104)
@@ -18665,6 +19926,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (77)
@@ -19005,6 +20270,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (84)
@@ -19189,6 +20458,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (63)
@@ -19262,6 +20535,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (48)
@@ -19335,6 +20612,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (46)
@@ -19481,6 +20762,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (15)
@@ -19575,6 +20860,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (37)
@@ -19648,6 +20937,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (41)
@@ -19742,6 +21035,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (72)
@@ -19841,6 +21138,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (42)
@@ -19935,6 +21236,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (57)
@@ -20013,6 +21318,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (30)
@@ -20112,7 +21421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f732989d8b1f8447a01f44e9ba301bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 100
 --- !u!195 &1318722497
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -20269,6 +21578,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (74)
@@ -20503,6 +21816,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (6)
@@ -20576,6 +21893,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (45)
@@ -20670,6 +21991,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (53)
@@ -20743,6 +22068,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (31)
@@ -21010,6 +22339,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (75)
@@ -21104,6 +22437,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (111)
@@ -21229,6 +22566,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (99)
@@ -21354,6 +22695,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (88)
@@ -21448,6 +22793,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (92)
@@ -21547,6 +22896,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (70)
@@ -21745,6 +23098,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (82)
@@ -21818,6 +23175,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (33)
@@ -21986,6 +23347,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (12)
@@ -22106,6 +23471,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (90)
@@ -22231,6 +23600,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (90)
@@ -22330,6 +23703,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (1)
@@ -22561,6 +23938,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (54)
@@ -22882,6 +24263,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (67)
@@ -22955,6 +24340,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (9)
@@ -23049,6 +24438,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (49)
@@ -23169,6 +24562,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (13)
@@ -23268,6 +24665,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (43)
@@ -23341,6 +24742,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (53)
@@ -23492,6 +24897,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (37)
@@ -23617,6 +25026,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (103)
@@ -23716,6 +25129,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (103)
@@ -23841,6 +25258,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (49)
@@ -23914,6 +25335,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (33)
@@ -23987,6 +25412,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (36)
@@ -24180,6 +25609,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (28)
@@ -24343,6 +25776,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (06)
@@ -24543,6 +25980,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (65)
@@ -24766,6 +26207,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5009656184442576768, guid: d9ab2401bf6839744952d1947386d8b3, type: 3}
   m_PrefabInstance: {fileID: 1580555437}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1588652109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1588652111}
+  - component: {fileID: 1588652110}
+  m_Layer: 0
+  m_Name: Waypoint2 (3)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1588652110
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588652109}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1588652111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588652109}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -69.69, y: -7.57, z: 80.03}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1598734974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24774,6 +26268,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (77)
@@ -24868,6 +26366,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (4)
@@ -24962,6 +26464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (100)
@@ -25101,6 +26607,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (50)
@@ -25299,6 +26809,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (11)
@@ -25393,6 +26907,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (18)
@@ -25492,6 +27010,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (15)
@@ -25586,6 +27108,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (83)
@@ -25680,6 +27206,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (16)
@@ -25774,6 +27304,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (88)
@@ -25873,6 +27407,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (51)
@@ -25959,6 +27497,112 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40000004, y: 1.2, z: 1.5000002}
   m_Center: {x: 0, y: 0.6, z: 0.0000038146973}
+--- !u!1 &1665311573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1665311575}
+  - component: {fileID: 1665311574}
+  m_Layer: 0
+  m_Name: Waypoint2 (2)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1665311574
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665311573}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1665311575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665311573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -54.3, y: -7.57, z: 61.3}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1665460358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1665460360}
+  - component: {fileID: 1665460359}
+  m_Layer: 0
+  m_Name: Waypoint2 (17)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1665460359
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665460358}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1665460360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665460358}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.6, y: -7.57, z: 1.9}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1666546779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25967,6 +27611,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (79)
@@ -26317,6 +27965,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40000072, y: 1.2, z: 15.000004}
   m_Center: {x: 0, y: 0.6, z: 0}
+--- !u!1 &1695621260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1695621262}
+  - component: {fileID: 1695621261}
+  m_Layer: 0
+  m_Name: Waypoint2 (5)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1695621261
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695621260}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1695621262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695621260}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -101.34, y: -7.57, z: 55.22}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1708235710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
@@ -26557,6 +28258,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (48)
@@ -26780,6 +28485,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (86)
@@ -26879,6 +28588,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (61)
@@ -26999,6 +28712,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (101)
@@ -27098,6 +28815,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (85)
@@ -27307,6 +29028,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (98)
@@ -27432,6 +29157,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (34)
@@ -27552,6 +29281,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (14)
@@ -27736,6 +29469,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (110)
@@ -27835,6 +29572,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (111)
@@ -28064,6 +29805,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (92)
@@ -28163,6 +29908,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (89)
@@ -28262,6 +30011,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (55)
@@ -28528,6 +30281,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (45)
@@ -28648,6 +30405,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (51)
@@ -28721,6 +30482,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (28)
@@ -28950,6 +30715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (16)
@@ -29158,6 +30927,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (114)
@@ -29283,6 +31056,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (63)
@@ -29377,6 +31154,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (76)
@@ -29613,6 +31394,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (105)
@@ -29712,6 +31497,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (36)
@@ -29806,6 +31595,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (22)
@@ -29900,6 +31693,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (9)
@@ -29986,6 +31783,112 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40000027, y: 1.2, z: 1.5000012}
   m_Center: {x: -0.0000038146973, y: 0.6, z: -6.661338e-16}
+--- !u!1 &1933417978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933417980}
+  - component: {fileID: 1933417979}
+  m_Layer: 0
+  m_Name: Waypoint2 (7)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1933417979
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933417978}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1933417980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933417978}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -114.51, y: -7.57, z: 12.54}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1933807832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933807834}
+  - component: {fileID: 1933807833}
+  m_Layer: 0
+  m_Name: Waypoint2 (11)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1933807833
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933807832}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &1933807834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933807832}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -42.43, y: -7.57, z: -20.06}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1935349072 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
@@ -29999,6 +31902,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (112)
@@ -30098,6 +32005,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (84)
@@ -30218,6 +32129,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (43)
@@ -30402,6 +32317,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (19)
@@ -30522,6 +32441,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (89)
@@ -30720,6 +32643,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (34)
@@ -30814,6 +32741,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (5)
@@ -30908,6 +32839,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (13)
@@ -31138,6 +33073,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7112750754122813761, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_15m_free_obs (12)
@@ -31258,6 +33197,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (59)
@@ -31370,6 +33313,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4, y: 1.2, z: 1.5000001}
   m_Center: {x: 1.4155345e-16, y: 0.6, z: -2.6645354e-16}
+--- !u!1 &2003799684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003799686}
+  - component: {fileID: 2003799685}
+  m_Layer: 0
+  m_Name: Waypoint2 (10)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &2003799685
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003799684}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &2003799686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003799684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -64.51, y: -7.57, z: -8.65}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2004679183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31484,6 +33480,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (93)
@@ -31583,6 +33583,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (8)
@@ -31669,6 +33673,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40000033, y: 1.2, z: 1.5000013}
   m_Center: {x: -0.0000038146973, y: 0.6, z: 0.00000047683716}
+--- !u!1 &2016229047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016229049}
+  - component: {fileID: 2016229048}
+  m_Layer: 0
+  m_Name: Waypoint2 (6)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &2016229048
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016229047}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &2016229049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016229047}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -115.07, y: -7.57, z: 30.04}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2016260961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31677,6 +33734,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (55)
@@ -31949,19 +34010,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 101917644}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8739604ff156c91408e3f6352de03dbc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.65
+      value: 0.18000007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8739604ff156c91408e3f6352de03dbc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.03
+      value: -0.5799999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8739604ff156c91408e3f6352de03dbc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.43
+      value: 0.09000015
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8739604ff156c91408e3f6352de03dbc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -32033,6 +34094,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 343260532}
   m_SourcePrefab: {fileID: 100100000, guid: 8739604ff156c91408e3f6352de03dbc, type: 3}
+--- !u!1 &2049899184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2049899186}
+  - component: {fileID: 2049899185}
+  m_Layer: 0
+  m_Name: Waypoint2 (12)
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &2049899185
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049899184}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.89958805
+  m_Center: {x: 0, y: 0, z: -4.2649813}
+--- !u!4 &2049899186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049899184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.69, y: -7.57, z: -43.72}
+  m_LocalScale: {x: 7.1034255, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2060634833
 GameObject:
   m_ObjectHideFlags: 0
@@ -32620,6 +34734,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (106)
@@ -32719,6 +34837,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (17)
@@ -32971,6 +35093,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (96)
@@ -33070,6 +35196,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -1743051733471590768, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_red_block_1.5m_free_obs (3)
@@ -33266,6 +35396,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (65)
@@ -33412,6 +35546,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 880924599}
     m_Modifications:
+    - target: {fileID: -7720982353877223050, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
       propertyPath: m_Name
       value: Track_Fence_line_type_01_white_block_1.5m_free_obs (38)
@@ -33503,7 +35641,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 705507995}
-  - {fileID: 2045596237}
+  - {fileID: 101917644}
   - {fileID: 2060634834}
   - {fileID: 1825185350}
   - {fileID: 1563984286}
@@ -33513,6 +35651,26 @@ SceneRoots:
   - {fileID: 742598889}
   - {fileID: 1130920759}
   - {fileID: 702353159}
+  - {fileID: 700271838}
+  - {fileID: 1665311575}
+  - {fileID: 1588652111}
+  - {fileID: 1098739671}
+  - {fileID: 1695621262}
+  - {fileID: 2016229049}
+  - {fileID: 1933417980}
+  - {fileID: 479665122}
+  - {fileID: 299997208}
+  - {fileID: 2003799686}
+  - {fileID: 1933807834}
+  - {fileID: 2049899186}
+  - {fileID: 44861585}
+  - {fileID: 1189632014}
+  - {fileID: 1114206654}
+  - {fileID: 817436772}
+  - {fileID: 1665460360}
+  - {fileID: 535002315}
+  - {fileID: 21917062}
+  - {fileID: 381199072}
   - {fileID: 1318722501}
   - {fileID: 448272798}
   - {fileID: 2094189682}

@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static LinkedList;
 using UnityEngine.AI;
+using static LinkedList;
 
 public class AIRacer : MonoBehaviour
 {
-
     private NavMeshAgent agent;
     private CustomLinkedList waypointsList;
     private Node currentNode;
 
-    public float speed = 3.5f; // will be set by factory at spawn
+    public int waypointsPassed = 0;
+    public Transform nextWaypoint;
+
+    public float speed = 30f; // will be set by factory at spawn
+    public float reachThreshold = 1.0f; // Distance to switch to next waypoint
 
     void Start()
     {
@@ -28,20 +31,17 @@ public class AIRacer : MonoBehaviour
         }
 
         currentNode = waypointsList.head;
-        agent.SetDestination(currentNode.waypoint.position);
+        if (currentNode != null)
+        {
+            agent.SetDestination(currentNode.waypoint.position);
+        }
     }
 
     void Update()
     {
-        if (Vector3.Distance(transform.position, currentNode.waypoint.position) < 1.0f)
-        {
-            GoToNextWaypoint();
-        }
-    }
+        if (currentNode == null) return;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Waypoint") && other.transform == currentNode.waypoint)
+        if (!agent.pathPending && agent.remainingDistance <= reachThreshold)
         {
             GoToNextWaypoint();
         }
@@ -49,7 +49,18 @@ public class AIRacer : MonoBehaviour
 
     private void GoToNextWaypoint()
     {
-        currentNode = currentNode.next;
-        agent.SetDestination(currentNode.waypoint.position);
+        if (currentNode.next != null)
+        {
+            currentNode = currentNode.next;
+        }
+        else
+        {
+            currentNode = waypointsList.head; // loop to start
+        }
+
+        waypointsPassed++;
+        nextWaypoint = currentNode.waypoint;
+        agent.SetDestination(nextWaypoint.position);
     }
+
 }
