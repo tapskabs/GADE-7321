@@ -7,49 +7,42 @@ using UnityEngine.AI;
 public class AIRacer : MonoBehaviour
 {
 
-    private NavMeshAgent agent;
-    private CustomLinkedList waypointsList;
-    private Node currentNode;
+    public float speed = 3.5f;
+    public LinkedListNode<Transform> currentWaypoint;
+    public int waypointsPassed = 0;
+    public Transform nextWaypoint;
 
-    public float speed = 3.5f; // will be set by factory at spawn
+    private NavMeshAgent agent;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.speed = speed;
-
-        waypointsList = new CustomLinkedList();
-
-        GameObject[] waypoints = GameObject.FindGameObjectsWithTag("Waypoint");
-        System.Array.Sort(waypoints, (a, b) => a.name.CompareTo(b.name));
-        foreach (GameObject wp in waypoints)
-        {
-            waypointsList.Add(wp.transform);
-        }
-
-        currentNode = waypointsList.head;
-        agent.SetDestination(currentNode.waypoint.position);
+        SetNextDestination();
     }
 
-    void Update()
+    void SetNextDestination()
     {
-        if (Vector3.Distance(transform.position, currentNode.waypoint.position) < 1.0f)
+        if (currentWaypoint != null)
         {
-            GoToNextWaypoint();
+            agent.SetDestination(currentWaypoint.Value.position);
+            nextWaypoint = currentWaypoint.Value;
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void AdvanceToNextWaypoint()
     {
-        if (other.CompareTag("Waypoint") && other.transform == currentNode.waypoint)
+        if (currentWaypoint != null)
         {
-            GoToNextWaypoint();
+            waypointsPassed++;
+
+            currentWaypoint = currentWaypoint.Next ?? RaceManager.Instance.waypoints.First;
+            SetNextDestination();
         }
     }
 
-    private void GoToNextWaypoint()
+    public float DistanceToNextWaypoint()
     {
-        currentNode = currentNode.next;
-        agent.SetDestination(currentNode.waypoint.position);
+        if (nextWaypoint == null) return float.MaxValue;
+        return Vector3.Distance(transform.position, nextWaypoint.position);
     }
 }
