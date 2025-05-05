@@ -1,6 +1,6 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
 
 public class LapManager : MonoBehaviour
 {
@@ -8,9 +8,10 @@ public class LapManager : MonoBehaviour
     public int totalLaps = 3;
     private bool hasEntered = false;
 
-    public TextMeshProUGUI lapText; // Now using TextMeshPro
+    public TextMeshProUGUI lapText;
+    public GameObject raceEndPanel;
 
-    public GameObject raceEndPanel; // Optional end screen
+    public List<Animator> spectatorAnimators; // Drag in spectators here
 
     void Start()
     {
@@ -25,7 +26,6 @@ public class LapManager : MonoBehaviour
             hasEntered = true;
             currentLap++;
 
-            Debug.Log("Lap: " + currentLap);
             if (lapText != null)
                 lapText.text = "Lap: " + currentLap + "/" + totalLaps;
 
@@ -45,6 +45,14 @@ public class LapManager : MonoBehaviour
     void EndRace()
     {
         Debug.Log("Race Finished!");
+
+        // Trigger victory animation for all spectators
+        foreach (Animator anim in spectatorAnimators)
+        {
+            if (anim != null)
+                anim.SetTrigger("Victory");
+        }
+
         if (raceEndPanel != null)
             raceEndPanel.SetActive(true);
     }
