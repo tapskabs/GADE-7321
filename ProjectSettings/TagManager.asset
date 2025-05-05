@@ -7,6 +7,7 @@ TagManager:
   - checkpoint
   - Checkpoint
   - Waypoint
+  - LapTrigger
   layers:
   - Default
   - TransparentFX
