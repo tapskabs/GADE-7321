@@ -11,5 +11,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("CheckpointRace");
     }
-   
+    public void LoadBeginnerRace()
+    {
+        SceneManager.LoadScene("BeginnerRace");
+    }
+
 }

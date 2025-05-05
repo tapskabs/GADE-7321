@@ -16,8 +16,8 @@ MonoBehaviour:
   - speakerName: Magnus
     species: Wizard
     speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
-    dialogueText: "Racers, your goal is clear: first to the finish line wins. No
-      magic, no shortcuts\u2014just skill."
+    dialogueText: 'Racers, your goal is clear: first to the finish line wins. No
+      magic, no shortcuts just skill. Make sure you hit every waypoint!'
   - speakerName: Blaze
     species: Tiger
     speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
@@ -33,4 +33,5 @@ MonoBehaviour:
   - speakerName: Maguns
     species: Wizard
     speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
-    dialogueText: Then prove it racers. The race starts... NOW!
+    dialogueText: Then prove it racers. The waypoints will be lablled Green. This
+      is a 3 lap race!.
