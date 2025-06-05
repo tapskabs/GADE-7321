@@ -21,24 +21,24 @@ public class WaypointGraph : MonoBehaviour
         }
 
         // Track structure:
-        AddEdge(waypointObjects[0], waypointObjects[1]); // A -> B
-        AddEdge(waypointObjects[1], waypointObjects[2]); // B -> C
-        AddEdge(waypointObjects[1], waypointObjects[3]); // B -> D (branch)
-        AddEdge(waypointObjects[2], waypointObjects[4]); // C -> E
-        AddEdge(waypointObjects[3], waypointObjects[4]); // D -> E
+        AddEdge(waypointObjects[0], waypointObjects[1]); 
+        AddEdge(waypointObjects[1], waypointObjects[2]); 
+        AddEdge(waypointObjects[1], waypointObjects[3]);  //(branch)
+        AddEdge(waypointObjects[2], waypointObjects[4]); //(branch)
+        AddEdge(waypointObjects[3], waypointObjects[4]); 
         AddEdge(waypointObjects[4], waypointObjects[5]);
         AddEdge(waypointObjects[5], waypointObjects[6]);
         AddEdge(waypointObjects[6], waypointObjects[7]);
         AddEdge(waypointObjects[7], waypointObjects[8]);
         AddEdge(waypointObjects[8], waypointObjects[9]);
-        AddEdge(waypointObjects[9], waypointObjects[10]);
-        AddEdge(waypointObjects[9], waypointObjects[11]);
+        AddEdge(waypointObjects[9], waypointObjects[10]); //(branch)
+        AddEdge(waypointObjects[9], waypointObjects[11]); //(branch)
         AddEdge(waypointObjects[10], waypointObjects[12]);
         AddEdge(waypointObjects[11], waypointObjects[12]);
-        // Add more edges as needed...
+        
 
-        // Last node loops to A
-        AddEdge(waypointObjects[waypointObjects.Length - 1], waypointObjects[0]); // J -> A
+        // Last node loops to 0
+        AddEdge(waypointObjects[waypointObjects.Length - 1], waypointObjects[0]); //Loop back
     }
 
     public void AddEdge(Transform from, Transform to)
