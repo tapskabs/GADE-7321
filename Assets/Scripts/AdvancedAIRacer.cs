@@ -17,7 +17,7 @@ public class AdvancedAIRacer : MonoBehaviour
         agent.speed = speed;
 
         waypointGraph = FindObjectOfType<WaypointGraph>();
-        waypointGraph.BuildGraph(); // Make sure this runs once per race setup
+        waypointGraph.BuildGraph(); //this runs once per race setup
 
         currentNode = waypointGraph.GetStartingNode();
         if (currentNode != null)
@@ -38,10 +38,10 @@ public class AdvancedAIRacer : MonoBehaviour
 
     void GoToNextNode()
     {
-        if (currentNode.neighbors.Count > 0)
+        if (currentNode.neighbours.Count > 0)
         {
-            int index = Random.Range(0, currentNode.neighbors.Count);
-            currentNode = currentNode.neighbors[index];
+            int index = Random.Range(0, currentNode.neighbours.Count);
+            currentNode = currentNode.neighbours[index];
             agent.SetDestination(currentNode.waypoint.position);
         }
     }

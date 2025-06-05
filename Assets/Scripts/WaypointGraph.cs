@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class WaypointGraph : MonoBehaviour
 {
-    public Transform[] waypointObjects; // Assign these in the Inspector in order: A, B, C...
+    public Transform[] waypointObjects; 
     public List<GraphNode> nodes = new List<GraphNode>();
     private Dictionary<Transform, GraphNode> nodeLookup = new Dictionary<Transform, GraphNode>();
 
@@ -12,7 +12,7 @@ public class WaypointGraph : MonoBehaviour
         nodes.Clear();
         nodeLookup.Clear();
 
-        // Create nodes
+        // Created nodes
         foreach (Transform wp in waypointObjects)
         {
             GraphNode node = new GraphNode(wp);
@@ -20,12 +20,21 @@ public class WaypointGraph : MonoBehaviour
             nodeLookup[wp] = node;
         }
 
-        // Example connections (you should edit according to your track structure):
+        // Track structure:
         AddEdge(waypointObjects[0], waypointObjects[1]); // A -> B
         AddEdge(waypointObjects[1], waypointObjects[2]); // B -> C
         AddEdge(waypointObjects[1], waypointObjects[3]); // B -> D (branch)
         AddEdge(waypointObjects[2], waypointObjects[4]); // C -> E
         AddEdge(waypointObjects[3], waypointObjects[4]); // D -> E
+        AddEdge(waypointObjects[4], waypointObjects[5]);
+        AddEdge(waypointObjects[5], waypointObjects[6]);
+        AddEdge(waypointObjects[6], waypointObjects[7]);
+        AddEdge(waypointObjects[7], waypointObjects[8]);
+        AddEdge(waypointObjects[8], waypointObjects[9]);
+        AddEdge(waypointObjects[9], waypointObjects[10]);
+        AddEdge(waypointObjects[9], waypointObjects[11]);
+        AddEdge(waypointObjects[10], waypointObjects[12]);
+        AddEdge(waypointObjects[11], waypointObjects[12]);
         // Add more edges as needed...
 
         // Last node loops to A
@@ -36,7 +45,7 @@ public class WaypointGraph : MonoBehaviour
     {
         if (nodeLookup.ContainsKey(from) && nodeLookup.ContainsKey(to))
         {
-            nodeLookup[from].neighbors.Add(nodeLookup[to]);
+            nodeLookup[from].neighbours.Add(nodeLookup[to]);
         }
     }
 
