@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CustomHashMap : MonoBehaviour
+public class CustomHashMap 
 {
     private class KeyValue
     {
