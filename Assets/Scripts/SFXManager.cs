@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+using System.Collections;
 using UnityEngine;
 
 [System.Serializable]
@@ -16,7 +16,10 @@ public class SFXManager : MonoBehaviour
     private AudioSource audioSource;
     public Sound[] sounds;
 
-
+    public void Start()
+    {
+        audioSource = gameObject.AddComponent<AudioSource>();
+    }
     void Awake()
     {
         if (Instance == null)
@@ -48,17 +51,30 @@ public class SFXManager : MonoBehaviour
         }
     }
 
-    public void PlaySFX(string key)
+
+
+    public void PlaySFX(string key, float duration = -1f)
     {
         AudioClip clip = soundMap.Get(key);
         if (clip != null)
         {
-            audioSource.PlayOneShot(clip);
-            Debug.Log("Playing SFX: " + key);
+            audioSource.clip = clip;
+            audioSource.Play();
+
+            if (duration > 0f && duration < clip.length)
+            {
+                StartCoroutine(StopClipAfter(duration));
+            }
         }
         else
         {
-            Debug.LogWarning("SFX not found: " + key);
+            Debug.LogWarning("Sound not found for key: " + key);
         }
+    }
+
+    private IEnumerator StopClipAfter(float time)
+    {
+        yield return new WaitForSeconds(time);
+        audioSource.Stop();
     }
 }
