@@ -11,8 +11,13 @@ public class AdvancedAIRacer : MonoBehaviour
 
     private WaypointGraph waypointGraph;
 
-    void Start()
+
+    IEnumerator Start()
     {
+        yield return new WaitForSeconds(0.25f); // Give SFXManager time to initialize
+
+        SFXManager.Instance.PlaySFX("startRace");
+
         agent = GetComponent<NavMeshAgent>();
         agent.speed = speed;
 

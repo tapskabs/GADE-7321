@@ -1,4 +1,12 @@
+using Unity.VisualScripting;
 using UnityEngine;
+
+[System.Serializable]
+public class Sound
+{
+    public string key;
+    public AudioClip clip;
+}
 
 public class SFXManager : MonoBehaviour
 {
@@ -6,15 +14,8 @@ public class SFXManager : MonoBehaviour
 
     private CustomHashMap soundMap;
     private AudioSource audioSource;
+    public Sound[] sounds;
 
-    [System.Serializable]
-    public class SoundEntry
-    {
-        public string key;
-        public AudioClip clip;
-    }
-
-    public SoundEntry[] sounds;
 
     void Awake()
     {
@@ -22,22 +23,28 @@ public class SFXManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            Initialize();
         }
         else
         {
             Destroy(gameObject);
+            return;
         }
-    }
 
-    void Initialize()
-    {
-        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogError("Missing AudioSource on SFXManager!");
+        }
+
         soundMap = new CustomHashMap();
 
-        foreach (SoundEntry entry in sounds)
+        foreach (Sound s in sounds)
         {
-            soundMap.Put(entry.key, entry.clip);
+            if (s != null && s.clip != null)
+            {
+                Debug.Log("Registering SFX: " + s.key);
+                soundMap.Put(s.key, s.clip);
+            }
         }
     }
 
@@ -47,6 +54,11 @@ public class SFXManager : MonoBehaviour
         if (clip != null)
         {
             audioSource.PlayOneShot(clip);
+            Debug.Log("Playing SFX: " + key);
+        }
+        else
+        {
+            Debug.LogWarning("SFX not found: " + key);
         }
     }
 }
