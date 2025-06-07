@@ -53,8 +53,8 @@ public class SFXManager : MonoBehaviour
         AudioClip clip = soundMap.Get(key);
         if (clip != null)
         {
-            audioSource.PlayOneShot(clip);
-            Debug.Log("Playing SFX: " + key);
+            // Create a temporary AudioSource if spatial audio needed
+            AudioSource.PlayClipAtPoint(clip, Vector3.zero); // or a fixed position
         }
         else
         {
