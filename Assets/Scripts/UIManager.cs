@@ -64,4 +64,22 @@ public class UIManager : MonoBehaviour
             default: return num + "th";
         }
     }
+    public int GetPlayerPosition()
+    {
+        racers = FindObjectsOfType<RacerProgressTracker>().ToList();
+
+        racers.Sort((a, b) =>
+        {
+            int wpCompare = b.waypointsPassed.CompareTo(a.waypointsPassed);
+            if (wpCompare != 0) return wpCompare;
+
+            float aDist = Vector3.Distance(a.transform.position, a.GetComponent<AdvancedRacerTracker>()?.GetNextWaypoint() ?? Vector3.zero);
+            float bDist = Vector3.Distance(b.transform.position, b.GetComponent<AdvancedRacerTracker>()?.GetNextWaypoint() ?? Vector3.zero);
+            return aDist.CompareTo(bDist);
+        });
+
+        return racers.IndexOf(playerTracker) + 1;
+    }
+
+
 }
