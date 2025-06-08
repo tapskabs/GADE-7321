@@ -7,7 +7,8 @@ public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI lapText;
     public TextMeshProUGUI positionText;
-
+    public GameObject endScreenPanel;
+    public TextMeshProUGUI endScreenText;
     private List<RacerProgressTracker> racers;
     private RacerProgressTracker playerTracker;
 
@@ -80,6 +81,25 @@ public class UIManager : MonoBehaviour
 
         return racers.IndexOf(playerTracker) + 1;
     }
+    public void EndRace(bool playerFinished)
+    {
+        int playerPosition = racers.IndexOf(playerTracker) + 1;
 
+        endScreenPanel.SetActive(true);
+
+        if (playerPosition == 1 && playerFinished)
+            endScreenText.text = "You Won!";
+        else
+            endScreenText.text = "You Lost!";
+        foreach (var racer in racers)
+        {
+            if (racer.TryGetComponent<AdvancedAIRacer>(out var ai))
+                ai.enabled = false;
+
+            if (racer.isPlayer)
+                racer.GetComponent<RacingPlayerController>().enabled = false;
+        }
+        SFXManager.Instance.PlaySFX("raceEnd");
+    }
 
 }

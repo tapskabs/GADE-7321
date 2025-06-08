@@ -22,7 +22,7 @@ public class RacerProgressTracker : MonoBehaviour
                 waypointsPassed++;
 
                 if (isPlayer)
-                    UIManager.Instance.UpdatePositionAndLap(); // optional live update
+                    UIManager.Instance.UpdatePositionAndLap();
 
                 if (visitedThisLap.Count >= 11)
                 {
@@ -33,9 +33,16 @@ public class RacerProgressTracker : MonoBehaviour
                     {
                         UIManager.Instance.UpdateLapText(currentLap, totalLaps);
                         SFXManager.Instance.PlaySFX("lapComplete");
+
+                        if (currentLap > totalLaps)
+                        {
+                            UIManager.Instance.EndRace(true); // Player completed all laps
+                        }
                     }
                 }
             }
         }
     }
+
 }
+
