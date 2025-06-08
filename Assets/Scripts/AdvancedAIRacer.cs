@@ -3,51 +3,51 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(NavMeshAgent), typeof(AdvancedRacerTracker))]
 public class AdvancedAIRacer : MonoBehaviour
 {
     public float speed = 30f;
+
     private NavMeshAgent agent;
-    private GraphNode currentNode;
-
     private WaypointGraph waypointGraph;
-
+    private AdvancedRacerTracker tracker;
 
     IEnumerator Start()
     {
-        yield return new WaitForSeconds(0.25f); // Give SFXManager time to initialize
+        yield return new WaitForSeconds(0.25f); // Allow SFXManager to initialize
 
         SFXManager.Instance.PlaySFX("startRace");
 
         agent = GetComponent<NavMeshAgent>();
         agent.speed = speed;
 
+        tracker = GetComponent<AdvancedRacerTracker>();
         waypointGraph = FindObjectOfType<WaypointGraph>();
-        waypointGraph.BuildGraph(); //this runs once per race setup
+        waypointGraph.BuildGraph(); // Ensure it's only called once in a GameManager setup
 
-        currentNode = waypointGraph.GetStartingNode();
-        if (currentNode != null)
+        tracker.currentNode = waypointGraph.GetStartingNode();
+
+        if (tracker.currentNode != null && tracker.currentNode.neighbours.Count > 0)
         {
-            agent.SetDestination(currentNode.waypoint.position);
+            tracker.nextNode = tracker.currentNode.neighbours[Random.Range(0, tracker.currentNode.neighbours.Count)];
+            agent.SetDestination(tracker.nextNode.waypoint.position);
         }
     }
 
     void Update()
     {
-        if (currentNode == null || currentNode.waypoint == null) return;
+        if (tracker.nextNode == null || tracker.nextNode.waypoint == null)
+            return;
 
-        if (Vector3.Distance(transform.position, currentNode.waypoint.position) < 1.5f)
+        // Check if we've reached the next node
+        if (Vector3.Distance(transform.position, tracker.nextNode.waypoint.position) < 1.5f)
         {
-            GoToNextNode();
-        }
-    }
+            tracker.PassWaypoint(tracker.nextNode);
 
-    void GoToNextNode()
-    {
-        if (currentNode.neighbours.Count > 0)
-        {
-            int index = Random.Range(0, currentNode.neighbours.Count);
-            currentNode = currentNode.neighbours[index];
-            agent.SetDestination(currentNode.waypoint.position);
+            if (tracker.nextNode.neighbours.Count > 0)
+            {
+                agent.SetDestination(tracker.nextNode.waypoint.position);
+            }
         }
     }
 }
