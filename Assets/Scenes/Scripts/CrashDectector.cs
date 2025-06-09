@@ -7,6 +7,8 @@ public class CrashDectector : MonoBehaviour
         if (collision.collider.CompareTag("Wall"))
         {
             SFXManager.Instance.PlaySFX("crash");
+            //Make sure sound references are in the SFX sound manager and naming conventions
+            //Make sure auido folder is in place
         }
     }
 }
