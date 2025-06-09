@@ -23,5 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BeginnerRace.unity
     guid: 062d5ce687638f6478a3588bd0c98954
+  - enabled: 1
+    path: Assets/Scenes/AdvancedRace.unity
+    guid: f2287a0b1accd3d41b584c52d7041de8
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

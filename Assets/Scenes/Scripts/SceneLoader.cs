@@ -15,5 +15,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("BeginnerRace");
     }
+    public void AdvancedRace()
+    {
+        SceneManager.LoadScene("AdvancedRace");
+    }
 
 }

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Magnus
-    species: Wizard
+    species: Commentator
     speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
     dialogueText: This is no ordinary race. Only the fastest and the smartest will
       succeed!
   - speakerName: Blaze
-    species: Tiger
-    speakerPortrait: {fileID: 21300000, guid: 8e4eb85c3952f8b43ac17a7fb4757a99, type: 3}
+    species: Player
+    speakerPortrait: {fileID: 21300000, guid: 10328b8faad253b408604b0da1bebe5d, type: 3}
     dialogueText: "I won\u2019t hold back this time."
   - speakerName: Stripes
-    species: Zebra
-    speakerPortrait: {fileID: 21300000, guid: 1180947fa0b72e1458ece8f0b8eb2faf, type: 3}
+    species: Racer
+    speakerPortrait: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
     dialogueText: "You guys  held back before? That\u2019s funny."
   - speakerName: Fang
-    species: Wolf
-    speakerPortrait: {fileID: 21300000, guid: 79af4d1ad1f141d4aa670d2130ec8db4, type: 3}
+    species: Racer
+    speakerPortrait: {fileID: 21300000, guid: 2f0fece2f3fa75c47a8cade628ae5523, type: 3}
     dialogueText: "Trash talk won\u2019t help you win, Stripes."
   - speakerName: Magnus
-    species: Wizard
+    species: Commentator
     speakerPortrait: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
     dialogueText: Then may the Best racer win!
