@@ -38,7 +38,7 @@ public class AdvancedAIRacer : MonoBehaviour
     {
         if (tracker.nextNode == null || tracker.nextNode.waypoint == null)
             return;
-
+        SFXManager.Instance.PlaySFX("startRace");
         // Check if we've reached the next node
         if (Vector3.Distance(transform.position, tracker.nextNode.waypoint.position) < 1.5f)
         {
