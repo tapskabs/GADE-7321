@@ -16,7 +16,7 @@ public class AdvancedAIRacer : MonoBehaviour
     {
         yield return new WaitForSeconds(0.25f); // Allow SFXManager to initialize
 
-        SFXManager.Instance.PlaySFX("startRace");
+        //SFXManager.Instance.PlaySFX("startRace");
 
         agent = GetComponent<NavMeshAgent>();
         agent.speed = speed;
