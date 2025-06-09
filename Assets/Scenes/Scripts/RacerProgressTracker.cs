@@ -36,7 +36,7 @@ public class RacerProgressTracker : MonoBehaviour
 
                         if (currentLap > totalLaps)
                         {
-                            UIManager.Instance.EndRace(true); // Player completed all laps
+                            UIManager.Instance.EndRace(true); 
                         }
                     }
                 }
