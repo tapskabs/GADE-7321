@@ -651,8 +651,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -573, y: 428}
-  m_SizeDelta: {x: 604.7534, y: 213.3867}
+  m_AnchoredPosition: {x: -242.21259, y: 428}
+  m_SizeDelta: {x: 1266.3282, y: 213.3867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &820721587
 CanvasRenderer:
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   portraitImage: {fileID: 1108129813}
   dialogueText: {fileID: 1133704808}
   nextButton: {fileID: 990921187}
-  dialogueData: {fileID: 11400000, guid: f0c69b032f6a6544886ecd71b5a89200, type: 2}
+  dialogueData: {fileID: 11400000, guid: f99b86bb3c73e2c429176ea1b2bbe58e, type: 2}
 --- !u!4 &1116082802
 Transform:
   m_ObjectHideFlags: 0
