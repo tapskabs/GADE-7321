@@ -9,6 +9,7 @@ TagManager:
   - Waypoint
   - LapTrigger
   - AdvancedWaypoint
+  - Wall
   layers:
   - Default
   - TransparentFX
