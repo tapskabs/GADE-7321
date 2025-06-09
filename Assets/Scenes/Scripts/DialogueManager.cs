@@ -6,7 +6,7 @@ public class DialogueManager : MonoBehaviour
 {
     public GameObject dialogueUI;
     public TMP_Text nameText;
-    public TMP_Text speciesText;  // NEW: TextMeshPro for species
+    public TMP_Text speciesText;
     public Image portraitImage;
     public TMP_Text dialogueText;
     public Button nextButton;
@@ -39,9 +39,10 @@ public class DialogueManager : MonoBehaviour
         {
             DialogueLine currentLine = dialogueQueue.Dequeue();
             nameText.text = currentLine.speakerName;
-            speciesText.text = $"Species: {currentLine.species}"; // NEW: Show species
+            speciesText.text = $"Role: {currentLine.species}"; 
             portraitImage.sprite = currentLine.speakerPortrait;
             dialogueText.text = currentLine.dialogueText;
+            SFXManager.Instance.PlaySFX("click");
         }
         else
         {

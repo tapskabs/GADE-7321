@@ -4273,17 +4273,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - key: startRace
-    clip: {fileID: 8300000, guid: 0232d9e0548cb48418a433b2a6cd7ff4, type: 3}
+    clip: {fileID: 8300000, guid: f1d3a10c408cbe34882ea33fa68dddf7, type: 3}
   - key: crash
-    clip: {fileID: 8300000, guid: 4c1b3435a56a54a488a5349bf66018d2, type: 3}
+    clip: {fileID: 8300000, guid: d24e948ce2369d740a9edf01a3d1c45d, type: 3}
   - key: lapComplete
-    clip: {fileID: 8300000, guid: 6f8088c73f24eff48b1c7a47027df3b7, type: 3}
+    clip: {fileID: 8300000, guid: 57de0c28e58ca0944aff786a3e0ff42b, type: 3}
   - key: buttonClick
-    clip: {fileID: 8300000, guid: 2e70cd1c4e5decb4c86edfb5c1edc78f, type: 3}
+    clip: {fileID: 8300000, guid: a863ab51c45caf542be58eefce104424, type: 3}
   - key: boost
-    clip: {fileID: 8300000, guid: d31811959f5026f4da7642dd929c276a, type: 3}
+    clip: {fileID: 8300000, guid: 42fc832d7b349ba49bbd2058263cda3c, type: 3}
   - key: raceEnd
-    clip: {fileID: 8300000, guid: f632e2ace80a32e47a2c531f64901a50, type: 3}
+    clip: {fileID: 8300000, guid: 16a7b07444071f54cbfda86b4371832e, type: 3}
 --- !u!4 &1729832675
 Transform:
   m_ObjectHideFlags: 0
