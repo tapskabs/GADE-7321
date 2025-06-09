@@ -16,7 +16,7 @@ public class CustomHashMap
         }
     }
 
-    private const int SIZE = 128; // You can increase if needed
+    private const int SIZE = 128;  
     private List<KeyValue>[] buckets;
 
     public CustomHashMap()

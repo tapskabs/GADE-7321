@@ -28,5 +28,10 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-   
+    public void LoadMphoRace()
+    {
+        SFXManager.Instance.PlaySFX("click");
+        SceneManager.LoadScene("Mpho Race");
+    }
+
 }

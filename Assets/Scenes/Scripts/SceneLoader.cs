@@ -16,4 +16,8 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("BeginnerRace");
     }
 
+    public void MphoRace()
+    {
+        SceneManager.LoadScene("Mpho Race");
+    }
 }
